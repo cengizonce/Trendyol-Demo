@@ -15,7 +15,7 @@ public class Scenerio extends BaseTest {
     public void test() throws InterruptedException {
 
 
-        stepDef.waitForPageToLoad(20); //WAIT LOAD FOR HOMEPAGE
+        stepDef.waitForPageToLoad(10); //WAIT LOAD FOR HOMEPAGE
 
         stepDef.existElementClick(HomePageObj.cookie, 5); //POP UP
 
